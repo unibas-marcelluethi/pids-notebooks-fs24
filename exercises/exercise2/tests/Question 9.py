@@ -1,6 +1,4 @@
-OK_FORMAT = True
-
-from nose.tools import assert_is_instance, assert_equal, assert_almost_equal, assert_true
+from asserts import *
 from otter.test_files import test_case
 import pandas as pd
 import numpy as np
