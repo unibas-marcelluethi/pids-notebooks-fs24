@@ -1,4 +1,3 @@
-
 def assert_equal(expected, actual):
     assert expected == actual,  f"{actual} does not equal {expected}"
     
