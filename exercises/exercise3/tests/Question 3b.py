@@ -13,4 +13,4 @@ def test_subplots(env):
   assert(75 <= ylim1[1] <= 80)
   ylim2 = ax2.get_ylim()
   assert(35 <= ylim2[1] <= 40)
-  assert(ax2.patches[0].get_facecolor() == (0.0, 0.0, 0.0, 1.0))  
+  assert(ax2.patches[0].get_facecolor() == (0.0, 0.5019607843137255, 0.0, 1.0))  
