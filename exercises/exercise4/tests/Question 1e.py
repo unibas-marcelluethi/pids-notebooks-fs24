@@ -9,6 +9,6 @@ def test_color_code_plot(env):
   color_code_plot = env["Question1e"].color_code_plot
   asia_bins = env["Question1e"].asia_bins
   
-  assert(10 < color_code_plot.facet_axis(0, 0).get_ylim()[1] < 11)
+  assert(10 < color_code_plot.get_ylim()[1] < 11)
   assert(3 <= asia_bins <= 5)
 
