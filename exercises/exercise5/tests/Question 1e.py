@@ -3,7 +3,7 @@ from asserts import *
 
 OK_FORMAT = False
 name = "Question 1e"
-points = 1
+points = 2
 @test_case()
 def test_probability_higher_8(env):
     probability_higher_8 = env["Question1e"].probability_higher_8
