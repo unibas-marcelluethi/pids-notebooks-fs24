@@ -3,7 +3,7 @@ from asserts import *
 
 OK_FORMAT = False
 name = "Question 6"
-points = 1
+points = 3
 @test_case()
 def cat_totals(env):
   cat_totals = env["Question6"].cat_totals

@@ -3,7 +3,7 @@ from asserts import *
 
 OK_FORMAT = False
 name = "Question 4c"
-points = 1
+points = 2
 
 @test_case()
 def test_hist_major_engineering(env):
