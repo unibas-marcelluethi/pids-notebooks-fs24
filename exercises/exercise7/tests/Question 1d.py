@@ -5,7 +5,7 @@ import numpy as np
 
 OK_FORMAT = False
 name = "Question 1d"
-points = 1
+points = 2
 @test_case()
 def test_gaussian_plot(env):
   gaussian_plot = env["Question1d"].gaussian_plot
