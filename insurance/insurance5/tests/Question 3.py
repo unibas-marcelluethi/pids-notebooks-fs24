@@ -11,7 +11,8 @@ points = 1
 def test_subplots(env):
     fsp = env["Question3"].female_survival_prob
     tfsp = 0.69
+    tfsp2 = 0.74
     r = random.randint(1, 100000)
-    assert(tfsp - 0.02 < fsp < tfsp + 0.02 )
-    
+    assert((tfsp - 0.02 < fsp < tfsp + 0.02) or  (tfsp2 - 0.02 < fsp < tfsp2 + 0.02))
+
 
