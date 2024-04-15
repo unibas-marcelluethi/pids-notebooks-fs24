@@ -5,7 +5,7 @@ import numpy as np
 
 OK_FORMAT = False
 name = "Question 1e"
-points = 1
+points = 2
 @test_case()
 def test_clt_fit(env):
   answer_1e = env["Question1e"].answer_1e
