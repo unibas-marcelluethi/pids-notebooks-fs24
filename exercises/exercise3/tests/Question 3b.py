@@ -3,7 +3,7 @@ from asserts import *
 
 OK_FORMAT = False
 name = "Question 3b"
-points = 1
+points = 2
 @test_case()
 def test_subplots(env):
   ax1 = env["Question3b"].ax1 
