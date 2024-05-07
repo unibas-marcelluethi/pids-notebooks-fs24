@@ -5,7 +5,7 @@ import pandas as pd
 
 OK_FORMAT = False
 name = "Question 2b"
-points = 2
+points = 3
 @test_case()
 def test_q2a(env):
    y_pred = env["Question2b"].y_pred
