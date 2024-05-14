@@ -5,7 +5,7 @@ import pandas as pd
 
 OK_FORMAT = False
 name = "Question 3b"
-points = 3
+points = 2
 @test_case()
 def test_q2a(env):
    X = env["Question3b"].X_nonan
