@@ -12,7 +12,7 @@ def test_q2(env):
     X = env["Question2"].X
     y_pred = regr.predict(X)    
     assert_equal((150, 3), X.shape)
-    assert_equal((150,), y_pred.shape[0])
+    assert_equal(150, y_pred.shape[0])
     assert_almost_equal(1.2, y_pred.mean(), 1)
     
 
